@@ -16,7 +16,7 @@
 #     print('i from func')
 
 n: int = 10
-# n = 10.123
+n = 10.123
 # print(n)
 # print(type(n))
 # n = int(n)
