@@ -16,7 +16,11 @@
 #     print('i from func')
 
 n: int = 10
+<<<<<<< HEAD
 n = 10.123
+=======
+# n = 10.123
+>>>>>>> 1955365d9f1bcd9bf42cad843f4151a99c1c80de
 # print(n)
 # print(type(n))
 # n = int(n)
