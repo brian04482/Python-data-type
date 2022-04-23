@@ -1,0 +1,3 @@
+count.txt
+main.py
+venv

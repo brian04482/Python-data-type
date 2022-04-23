@@ -15,7 +15,7 @@
 # def func_test():
 #     print('i from func')
 
-# n: int = 10
+n: int = 10
 # n = 10.123
 # print(n)
 # print(type(n))
@@ -25,7 +25,7 @@
 # text = 'Hello "world"'
 # print(text)
 
-# # если нужно обратиться к какому-то по счету символу, начиная с конца, то можно указывать отрицательные значения (на этот раз с единицы).
+# если нужно обратиться к какому-то по счету символу, начиная с конца, то можно указывать отрицательные значения (на этот раз с единицы).
 # string1 = 'interface FastEthernet1/0'
 # print(string1[1])
 # print(string1[-2])
@@ -231,7 +231,7 @@
 #
 # # Функция sorted сортирует ключи словаря по возрастанию и возвращает новый список с отсортированными ключами:
 london = {'name': 'London1', 'location': 'London Str', 'vendor': 'Cisco'}
-# print(sorted(london))
-# d_keys = ['hostname', 'location', 'vendor', 'model', 'ios', 'ip']
-# r1 = dict.fromkeys(d_keys)
-# print(r1)
+print(sorted(london))
+d_keys = ['hostname', 'location', 'vendor', 'model', 'ios', 'ip']
+r1 = dict.fromkeys(d_keys)
+print(r1)
